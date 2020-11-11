@@ -16,9 +16,10 @@
     position: sticky;
     top: 0%;
     right:15%;
-    width:10%;
+    min-width:10%;
+    float:right;
 }
 #Projects{
     display: flex;
-    
+
 }
