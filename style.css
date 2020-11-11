@@ -3,23 +3,58 @@
 }
 .section{
     background-color: aliceblue;
+    margin:3%;
+    padding: 2%;
+    border-radius: 3%;
 }
 .main{
     background-color: rgb(0, 139, 0);
     width:70%;
     left:35%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 735px;
 
 }
 .aside{
     background-color: rgb(180, 0, 0);
     z-index:4;
     position: sticky;
-    top: 0%;
-    right:15%;
-    min-width:10%;
+    top: 2%;
+    width:284;
+    min-width:12%;
     float:right;
 }
-#Projects{
+.flex{
     display: flex;
-
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+}
+.asideDiv{
+    border: 2px dotted black;
+    padding: 2px 0px 2px 2px;
+}
+.project{
+    background-color: rgb(180, 0, 0);
+    margin:3%;
+    padding: 3%;
+    border-radius: 3%;
+    color:black;
+}
+h1, h2{
+    text-align: center;
+}
+.projectTitle{
+    text-align: center;
+}
+.projectImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 45%;
+    margin-bottom: 5%;
 }
