@@ -45,7 +45,6 @@ p{
 .asideDiv{
     border: 2px dotted black;
     padding: 2px 0px 2px 2px;
-    color:white;
 }
 .project{
     background-color: rgb(180, 0, 0);
@@ -85,4 +84,8 @@ h1, h2{
     margin-right: auto;
     width:30px;
     height: 30px;
+}
+
+.divWhite{
+    color: white;
 }
