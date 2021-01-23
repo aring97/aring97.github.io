@@ -32,7 +32,6 @@ p{
     top: 2%;
     width:284;
     min-width:12%;
-    float:right;
 }
 .flex{
     display: flex;
@@ -74,7 +73,6 @@ h1, h2{
     background-color: rgb(180, 0, 0);
     margin: 0 auto;
     width: 100%;
-    position: absolute;
     top:0;
     left:0;
     margin-bottom: 10%;
