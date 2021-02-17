@@ -6,66 +6,9 @@ p{
     font-size: large;
 }
 
-.body{
-    background-image:url(./Pictures/1_7xXD3ehPesDWl_doAFroew.png) ;
-    background-size: 100%;
-}
-.section{
-    background-color: rgb(237, 235, 252);
-    margin:3%;
-    padding: 2%;
-    border-radius: 3%;
-}
-.main{
-    background-color: rgba(40, 70, 40,30%);
-    width:70%;
-    left:35%;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 735px;
-    margin-top:18%;
-
-}
-.aside{
-    background-color: rgb(180, 0, 0);
-    position: sticky;
-    top: 2%;
-    width:284;
-    min-width:12%;
-}
-.flex{
-    display: flex;
-}
-.left{
-    float: left;
-}
-.right{
-    float:right;
-}
-.asideDiv{
-    border: 2px dotted black;
-    padding: 2px 0px 2px 2px;
-}
-.project{
-    background-color: rgb(180, 0, 0);
-    margin:3%;
-    padding: 3%;
-    border-radius: 3%;
-    color:black;
-}
-h1, h2{
-    text-align: center;
-}
-.projectTitle{
-    text-align: center;
-}
-.projectImage{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 45%;
-    width: 100%;
-    margin-bottom: 5%;
+.img-small{
+    height:35px;
+    width: 35px;
 }
 
 .pageTitle{
@@ -74,18 +17,24 @@ h1, h2{
     width: 100%;
     top:0;
     left:0;
-    margin-bottom: 10%;
     color: white;
     text-align: center;
 }
-.linkimage{
-    display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width:30px;
-    height: 30px;
+
+.text-white{
+    color:white;
 }
 
-.divWhite{
-    color: white;
+.border-right{
+    border-right: 1px white;
+}
+
+.background{
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+
+.card-background{
+    background-color: rgb(180, 0, 0); 
+    color: white;  
 }
